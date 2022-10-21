@@ -1,0 +1,45 @@
+.general {
+  width: 65%;
+  height: 590px;
+  margin: 100px 0 100px 40px;
+
+  background-size: cover;
+
+  .head {
+    h2 {
+      color: #ffffff;
+      padding: 40px 0 0 80px;
+    }
+    margin-bottom: 300px;
+  }
+
+  .info {
+    padding: 0 40px 0 80px;
+    display: flex;
+
+    h1 {
+      color: #ffffff;
+      font-size: 140px;
+      margin-right: 70px;
+      align-self: flex-end;
+    }
+
+    ul {
+      color: #ffffff;
+      align-self: flex-end;
+      margin-right: 70px;
+      margin-bottom: 30px;
+      list-style-type: none;
+
+      li:first-child {
+        text-align: center;
+        font-size: 35px;
+      }
+
+      li:last-child {
+        font-size: 20px;
+        text-align: center;
+      }
+    }
+  }
+}

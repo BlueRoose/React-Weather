@@ -1,0 +1,96 @@
+.wrapper {
+  background-color: #1f4178;
+  width: 35%;
+  height: 590px;
+  margin: 100px 40px 100px auto;
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+
+    input {
+      font-size: 20px;
+      width: 350px;
+      height: 29px;
+      border: none;
+      border-bottom: 1px solid gray;
+      background-color: transparent;
+      color: inherit;
+      outline: none;
+      margin: 40px 0 0 40px;
+    }
+
+    ::-webkit-input-placeholder {
+      color: gray;
+    }
+    ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: gray;
+    }
+    :-ms-input-placeholder {
+      color: gray;
+    }
+    :-moz-placeholder {
+      /* Firefox 18- */
+      color: gray;
+    }
+
+    .colortext {
+      color: gray; /* Цвет текста */
+    }
+
+    img {
+      background-color: #669dc4;
+      padding: 20px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }
+
+  .mid {
+    padding: 30px 0 0 40px;
+
+    h3 {
+      color: gray;
+      margin-bottom: 30px;
+      cursor: pointer;
+      font-size: 20px;
+    }
+  }
+
+  hr {
+    height: 1px;
+    border: 0;
+    background-color: gray;
+    margin: 30px 40px 0 40px;
+  }
+
+  .low {
+    h3 {
+      color: gray;
+      padding: 30px 0 30px 40px;
+      font-size: 25px;
+    }
+
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+
+      li {
+        color: gray;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 40px 15px 40px;
+      }
+    }
+  }
+
+  hr {
+    height: 1px;
+    border: 0;
+    background-color: gray;
+    margin: 20px 40px 0 40px;
+  }
+}
