@@ -59,6 +59,8 @@ function GeneralInfo(props) {
     }
   }
 
+  console.log(props);
+
   return (
     <div
       className={styles.general}

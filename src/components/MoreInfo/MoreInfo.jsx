@@ -26,7 +26,7 @@ function MoreInfo(props) {
             onChange={handleChange}
           />
         </form>
-        <img src="img/search.svg" alt="search" onClick={handleClear} />
+        <img src="../img/search.svg" alt="search" onClick={handleClear} />
       </div>
       <div className={styles.mid}>
         <h3 onClick={() => props.updateData("Hrodna")}>Hrodna</h3>
