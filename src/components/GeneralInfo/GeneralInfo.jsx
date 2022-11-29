@@ -27,34 +27,46 @@ function GeneralInfo(props) {
       case 7:
         day = "Sunday";
         break;
+      default:
+        break;
     }
     let min = data.getMinutes();
-    if (min.length == 1) {
+    if (min.length === 1) {
       min = "0" + min;
     }
-    return data.getHours() + ":" + min + " - " + day + ", " + data.getDate() + "." + (data.getMonth() + 1)
+    return (
+      data.getHours() +
+      ":" +
+      min +
+      " - " +
+      day +
+      ", " +
+      data.getDate() +
+      "." +
+      (data.getMonth() + 1)
+    );
   }
 
   function getImage(str) {
-    if (str == "Snow") {
+    if (str === "Snow") {
       return "img/snow.svg";
-    } else if (str == "Clouds") {
+    } else if (str === "Clouds") {
       return "img/cloudy.svg";
-    } else if (str == "Rain") {
+    } else if (str === "Rain") {
       return "img/drizzle.svg";
-    } else if (str == "Clear") {
+    } else if (str === "Clear") {
       return "img/sunny.svg";
     }
   }
 
   function getBackground(str) {
-    if (str == "Snow") {
+    if (str === "Snow") {
       return "img/snow.gif";
-    } else if (str == "Clouds") {
+    } else if (str === "Clouds") {
       return "img/cloudy.gif";
-    } else if (str == "Rain") {
+    } else if (str === "Rain") {
       return "img/rain.gif";
-    } else if (str == "Clear") {
+    } else if (str === "Clear") {
       return "img/sun.gif";
     }
   }
